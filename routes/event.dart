@@ -43,7 +43,7 @@ Future<Response> onRequest(RequestContext context) async {
       'contents': chatHistory,
     };
 
-    const apiKey = 'AIzaSyAz0ov7AMgJIHAXl0hSxbky-0OTR0VWkss';
+    const apiKey = '';
 
     const maxRetries = 3;
     const initialDelay = Duration(seconds: 1);
