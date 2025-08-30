@@ -32,7 +32,7 @@ Future<Response> onRequest(RequestContext context,String date) async {
       'contents': chatHistory,
     };
 
-    const apiKey = 'AIzaSyAz0ov7AMgJIHAXl0hSxbky-0OTR0VWkss';
+    const apiKey = '';
     const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=$apiKey';
 
     final response = await http.post(
